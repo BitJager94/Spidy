@@ -53,7 +53,7 @@ This method is a signal handler that is triggered when the spider finishes. It e
 To use the script, simply run it as a Python script. The spider will start scraping the specified webpage and building the URL relational chart. Press the 'esc' key to stop the spider and display the chart.
 
 ```python
-python script_name.py
+python Spidy.py
 ```
 
 **Note:** Make sure to have the required packages installed and update the `start_urls` attribute of the `MySpider` class with the desired webpage URL before running the script.
